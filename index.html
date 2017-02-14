@@ -6,6 +6,7 @@ layout: default
   <h1 class="header-title">
     <a href="{{ site.url }}{{ site.baseurl }}">{{ site.name }}<span> blog</span></a>
   </h1>
+  <center>
   <nav class="header-nav">
     {% for nav in site.nav %}
     {% if nav.url contains 'http://' or nav.url contains 'https://' %}
@@ -15,6 +16,7 @@ layout: default
     {% endif %}
     {% endfor %}
   </nav>
+  </center>
 </header>
 
 <div class="list">
