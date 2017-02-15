@@ -13,7 +13,7 @@ layout: default
     {% else %}
     <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
     {% endif %}
-    {% if nav != last(site.nav) %}
+    {% if nav != site.nav.last %}
     ·
     {% endif %}
     {% endfor %}
