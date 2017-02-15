@@ -47,14 +47,14 @@ kramdown:
 
 # Navigation
 nav:
-  - name:           "About"
+  - name:           "Sobre mí"
     url:            "/about"
-  - name:           "Archive"
+  - name:           "Archivos"
     url:            "/archive"
-  - name:           "Tags"
+  - name:           "Etiquetas"
     url:            "/tags"
   - name:           "Github"
-    url:            "https://gcpmendez.github.io/blog/"
+    url:            "https://gcpmendez.github.io/"
 
 # Sass
 sass:
